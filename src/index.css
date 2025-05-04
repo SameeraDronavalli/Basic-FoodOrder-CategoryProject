@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* top image at home page */
+.coloneeidt
+{
+    overflow:hidden;
+  height: 600px; 
+  width:100%;
+}
+/* icons on food card at menu page  */
+.veg-icon
+{
+  margin-left: 95%;
+}
+.nonveg-icon
+{
+  margin-left: 95%;
+}
+
+.headstyle
+{
+  font-size: 50px;
+  position: relative;
+  top:150px;
+  left:180px;
+ 
+}
+/*height of navbar reduced */
+.navigating
+{
+height:89px;
+}
+.faviconimg
+{
+  height:63px;
+ 
+}
+.indiandishes
+{
+  margin-top: 90px;
+  
+  margin-left: 5px;
+}
+.foodtext
+{
+  margin-top: 70px;
+  font-size: 20px;
+   }
+.foodimg
+{
+  height:450px;
+}
+.foodparagraph
+{
+  padding-top: 5px;
+}
+/* text at restaurent menu page */
+.textcenter
+{
+  text-align: center;
+}
+/* restaurant food categories at menu page */
+.categories
+{
+  margin-top:50px;
+}
+/* background text on top image at home page */
+.backgrdtext
+{
+  position: relative;
+  bottom: 400px;
+  left:50px;
+  text-align: center;
+  color:#fafafa;
+}
+/* view menu button at home page */
+.menubtn{
+  position: relative;
+  left:550px;
+  bottom:300px;
+  font-size: 30px;
+  background-color: rgb(238, 194, 74);
+  border-radius: 40px;
+  padding-bottom: 10px;
+}
+/* footer styles like height color */
+.footerstyles{
+  position: relative;
+  top:700px;
+  height: 400px;
+color:white;
+  background-color: rgb(38, 41, 40);
+padding-top: 30px;
+}
+/* bullets style on footer page  hided */
+.liststyles
+{
+  list-style: none;
+}
+/* footer inside text styles */
+.footertextstyles  
+{
+  
+  color: white;
+  margin: 0px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 650px;
+}
+hr{
+  border: 1px solid rgb(0, 255, 42);
+  margin-right: 100px;
+}
+/* images size in cards at restaurent listpage */
+.restaurentlistimg
+{
+  height:214.8px;
+  width:286.4px;
+}
+/* images animation for restaurent list and menu pages */
+.animate
+{
+
+ transition:1s;
+}
+.animate:hover
+{
+transform: scale(1.1);
+}
+/* cart icon at header */
+.cartsize
+{
+  margin-left: 20px;
+color: rgb(102, 14, 185);
+  position: relative;
+  top:10px
+}
+.barkasimg
+{
+  overflow: hidden;
+  position: relative;
+  right: 10%;
+  width: 100%;
+  
+}
+.filterdata
+{
+  margin-top: 100px;
+} 
+.image
+{
+  border-radius: 40px;
+  height:220px;
+    width:220px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.textbtnchanges{
+  position: relative;
+  left:70px;
+ margin-top: 10px;
+}
+.foodcards
+{
+position: relative;
+left:80px;
+}
+.filtercard
+{
+  position: relative;
+  right:20px;
+}
+.loginimage{
+ 
+  height:550px;
+  width:560px;
+}
+
+.btns
+{
+  margin-left: 80px;
+  margin-top: 60px;
+  width:220px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color:rgb(251, 249, 255) ;
+  background-color: rgb(44, 43, 46);
+  border: 1px solid rgb(172, 205, 177);
+
+}
+.pswd
+{
+  margin-top: 60px;
+width:350px;
+margin-left: 10px;
+border-radius: 10px ;
+height:35px;
+background: transparent;
+border: 1px solid rgb(0, 255, 42);
+
+color: black;
+
+}
+::placeholder
+{
+  color: rgb(179, 181, 179);
+}
+.username
+{
+margin-left:10px;
+height:35px;
+border-radius:10px ;
+background: transparent;
+color: black;
+border: 1px solid rgb(0, 255, 42);
+
+}
+.labelwidth
+{
+  width:350px;
+}
+.new
+{
+margin-left: 120px;
+margin-top: 10px;
+}
+.pswdforgot{
+margin-left: 130px;
+color:rgb(72, 127, 237);
+
+}
+.logincreate
+{
+ color:white;
+text-align: center;
+margin-bottom: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+.portal
+{
+width: 100%;
+height: 100%;
+background-size: cover ;
+}
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Push remove button to the right */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-info {
+  flex-grow: 1; /* Allows name & price to take available space */
+  margin-left: 15px;
+}
+
+.remove-btn {
+  background-color: rgb(67, 64, 62);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background-color: rgb(139, 209, 172);
+}
